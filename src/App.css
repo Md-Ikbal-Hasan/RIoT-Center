@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@200;300&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif, 'Lobster', 'cursive';
+  background-color: #ffffff;
+}
+
 .App {
   text-align: center;
 }
@@ -30,12 +37,30 @@
 
 
 /* custom css  */
+
+.brand-name {
+  font-family: 'Lobster', 'cursive';
+  font-size: 30px;
+  font-weight: 900;
+}
+
 .navbar {
-  background-color: rgb(113, 4, 113);
+  background-color: #ffffff;
+
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar a:hover {
+  color: orange;
 }
 
 .navbar a {
-  color: white;
+  color: #9155A7;
 }
 
 .drop {
@@ -45,45 +70,138 @@
 
 
 .carousel-item img {
-  height: 400px;
+  height: 600px;
   /* object-fit: cover; */
+}
+
+.header-container {
+  padding: 30px;
+  background-color: #9155A7;
+  text-align: center;
+  color: orange;
+
 }
 
 .card {
   background-color: navy;
 }
 
+.card-title {
+  color: #9155A7;
+}
+
+.director {
+  width: 300px;
+  height: 100px;
+  background: none;
+  margin: 50px 0;
+}
+
+.team-container {
+  margin-top: 200px;
+  padding-top: 150px;
+  padding-bottom: 0px;
+  /* height: 400px; */
+  /* border: 2px solid rebeccapurple; */
+}
+
 .experties-title {
-  background-color: navy;
-  color: white;
+  font-family: 'Raleway', 'sans-serif';
+  color: navy;
   padding: 10px;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 40px;
+  font-weight: 700;
 }
 
-.ps-info{
-  background-color: orange;
-  color: white;
+.team-member-image {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.teacher {
+  margin-bottom: 100px;
+}
+
+.teacher-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.researcher-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+
+.team-bcg {}
+
+.ps-info {
+  /* background-color: orange; */
+  color: orange;
   padding: 10px;
 }
 
-.paper-number{
-  background-color: rgb(134, 6, 124);
-  color: white;
-  padding: 10px;
+.ps-info h2,
+h4 {
+  font-family: 'Lobster', 'cursive';
 }
+
+.paper-number {
+  /* background-color: rgb(134, 6, 124); */
+  /* color: white; */
+  padding: 10px;
+  background-image: url('https://media.istockphoto.com/photos/empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-picture-id1339787499?b=1&k=20&m=1339787499&s=170667a&w=0&h=psnH04yZpoVzxa4xTZt4hDwff5WiO0cQrtnYdRttkSI=');
+}
+
 .tagline {
   font-size: 12px;
   margin: 0;
 }
 
+.experties-icon {
+  font-size: 70px;
+  color: orange;
+}
+
+.partner-icon {
+  font-size: 100px;
+  text-align: center;
+  color: orange;
+
+}
+
+.partner-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.partner-title h2 {
+  color: orange;
+}
+
+.partner {
+  text-align: center;
+}
+
 .footer {
-  background-color: navy;
+  background-color: #393838;
   color: white;
 }
 
 .myfooter p {
   margin: 0;
+}
+
+.footer-image {
+  /* background-color: aliceblue; */
 }
 
 .social-media-icon {

@@ -3,12 +3,12 @@ import React from 'react';
 const PaperStatistics = () => {
     return (
         <div className='my-5'>
-            <h1 className='text-center mb-4  experties-title'>Paper Statistics</h1>
+            <h1 className='text-center mb-4  experties-title'>We Take Pride in Our Numbers</h1>
             <div className="div">
                 <div className="row row-cols-md-4 paper-number row-cols-1 mx-3  p-5 text-center">
 
                     <div className="col">
-                        <div className='ps-info p-3 shadow-lg'>
+                        <div className='ps-info p-3'>
                             <h2>11</h2>
                             <h4>Exp</h4>
                         </div>
